@@ -25,6 +25,7 @@ public class PlayerController : MonoBehaviour
     private float movementY;
     private int Second { get; set; }
     private int Minute { get; set; }
+    private int count = 0;
     private float timer;
     private int lives = 3; // Alterado para 3 vidas
     private AudioSource audioSource;
@@ -78,6 +79,7 @@ public class PlayerController : MonoBehaviour
     {
         timer += Time.deltaTime;
         if (Second > 19){
+            count ++;
             LoseGame();
             return;
         }
@@ -189,10 +191,11 @@ public class PlayerController : MonoBehaviour
             {
                 hazard.GetComponent<Collider>().enabled = false;
             }
-
             
             loseTextObject.SetActive(true);
-            audioSource.PlayOneShot(loseSoundEffect);
+            if (count == 1){
+                audioSource.PlayOneShot(loseSoundEffect);
+            }
             Invoke("LoadMainMenu", 5f);
 
         }
