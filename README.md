@@ -21,3 +21,5 @@ Leonardo da França Moura de Andrade.
 - **Main Menu Background:** [Cartoon Forest Landscape Background](https://www.freepik.com/free-vector/cartoon-forest-landscape-endless-nature-background-computer-games-nature-tree-outdoor-plant-green-natural-environment-wood_10600816.htm#query=game%20background&position=4&from_view=keyword&track=ais&uuid=0d6dc7fc-1891-4382-a6c6-0fd03a25b884)
 - **Wood, Pillar, Fence:** [Kyrise's Voxel Forest Environment Pack](https://kyrise.itch.io/kyrises-voxel-forest-environment-pack)
 - **Sound Effects:** [Free Sound Effects Pack](https://assetstore.unity.com/packages/audio/sound-fx/free-sound-effects-pack-155776)
+- **Soundtrack:** [Cozy Sim Music Pack - Town Life](https://richarrest.itch.io/cozy-sim-music-pack-town-life)
+
